@@ -1,0 +1,12 @@
+export const citys = [,
+    {label: 'Bogotá', value: 'Bogota'},
+    {label: 'Medellín', value: 'Medellin'},
+    {label: 'Cali', value: 'Cali'},
+    {label: 'B/qlla', value: 'Barranquilla'},
+    {label: 'Cartagena', value: 'Cartagena'},
+    {label: 'Londres', value: 'London'},
+    {label: 'Nueva York', value: 'New York'},
+    {label: 'París', value: 'París'},
+    {label: 'Miami', value: 'Miami'},
+    {label: 'Buenos Aires', value: 'Buenos Aires'},
+  ]
