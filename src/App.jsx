@@ -12,9 +12,14 @@ const [selectCity, setselectCity] = useState("Guarne")
 
   const success = () => {
     const API_KEY = "da79b2601af3a29ca663205988d8e05a"
+
     axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${selectCity}&appid=${API_KEY}`)
     .then(({data}) => setWeather(data))
     .catch((err) => console.log(err))
+  }
+
+  const handleSelectCity = ({value}) => {
+    setselectCity(value)
   }
 
   useEffect(() => {
@@ -27,9 +32,7 @@ const [selectCity, setselectCity] = useState("Guarne")
       element.classList.toggle("dark");
   }
 
-  const handleSelectCity = ({value}) => {
-    setselectCity(value)
-  }
+  
 
 
   {/**************************************************************************************************** */}

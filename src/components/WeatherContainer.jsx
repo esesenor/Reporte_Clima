@@ -41,7 +41,7 @@ const WeatherContainer = ({weather, weatherCity}) => {
    border-r-[100px] border-r-transparent */  }
 
             {/*SECCION SUPERIOR*/}
-            <article className='bg-[rgba(90,90,90,0.5)] rounded-2xl grid grid-cols-2 items-center p-3 drop-shadow-md
+            <article className='bg-[rgba(206,197,197,0.5)] rounded-2xl grid grid-cols-2 items-center p-3 drop-shadow-md
               border-b-2 border-r-2 border-[rgba(0,0,0,0.3)]'>
 
 
@@ -54,8 +54,8 @@ const WeatherContainer = ({weather, weatherCity}) => {
 
                 <picture className='m-auto'>
                     <img 
-                    src= {`/icons/${weather.weather[0].icon}.png`}
-                    alt="" 
+                        src={`/icons/${weather.weather[0].icon}.png`}
+                        alt="" 
                     />
                 </picture>
 
